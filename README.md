@@ -29,7 +29,3 @@ You will make the project using these technologies
 •	Azure DevOps
 What you use for authentication/ how you set it up is up to you, but you will lose points if your code presents a major security risk.
 Due: Friday July 29
- 
-users can add and remove devices from their account
-
-![image](https://user-images.githubusercontent.com/107573468/181272516-30a9caba-30ce-46eb-ac8a-c842f7e4f069.png)
