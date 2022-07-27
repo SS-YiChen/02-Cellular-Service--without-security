@@ -1,7 +1,8 @@
 # 02-springboot-angular-telecom
 
-Telecom Customer Portal
-	For this project you will be making a customer portal for a telecommunications company. Think of any one of your mobile carriers (ATT, Verizon, Sprint, etc.). You will be making a website so that users will be able to create and manage their accounts.
+# Telecom Customer Portal
+
+For this project you will be making a customer portal for a telecommunications company. Think of any one of your mobile carriers (ATT, Verizon, Sprint, etc.). You will be making a website so that users will be able to create and manage their accounts.
 
 Functional Requirements
 •	Users must be able to add and remove phone plans from their account
