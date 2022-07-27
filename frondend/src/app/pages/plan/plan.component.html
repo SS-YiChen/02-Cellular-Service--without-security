@@ -1,0 +1,17 @@
+<h2>Device List</h2>
+<table class = "table table-striped">
+    <thead>
+        <tr>
+            <th>name</th>
+            <th>price </th>
+            <th>device limit</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let plan of plans">
+            <td>{{plan.name}}</td>
+            <td>{{plan.price}}</td>
+            <td>{{plan.deviceLimit}}</td>
+        </tr>
+    </tbody>
+</table>

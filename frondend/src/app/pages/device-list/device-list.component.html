@@ -1,0 +1,22 @@
+<h2>Device List</h2>
+<table class = "table table-striped">
+    <thead>
+        <tr>
+            <th>name</th>
+            <th>Phone Number</th>
+            <th>user id</th>
+            <th>handle</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let device of devices">
+            <td>{{device.name}}</td>
+            <td>{{device.phoneNumber}}</td>
+            <td>{{device.userId}}</td>
+            <td>
+                <button (click) = "updateDevice(device.id)" class = "btn btn-info"> Update</button>
+                <button (click) = "deleteDevice(device.id)" class = "btn btn-danger" style="margin-left: 10px"> Delete</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

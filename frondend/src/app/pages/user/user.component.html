@@ -1,0 +1,25 @@
+<h2>Personal Information</h2>
+<table class = "table table-striped">
+    <thead>
+        <tr>
+            <th>name</th>
+            <th>gender</th>
+            <th>age</th>
+            <th>ssn</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of users">
+            <td>{{user.name}}</td>
+            <td>{{user.gender}}</td>
+            <td>{{user.age}}</td>
+            <td>{{user.ssn}}</td>
+            <td>
+                <button (click) = "updateUser(user.id)" class = "btn btn-info"> Update</button>
+                <button (click) = "deleteUser(user.id)" class = "btn btn-danger" style="margin-left: 10px"> Delete</button>
+                <button (click) = "viewUser(user.id)" class = "btn btn-info" style="margin-left: 10px"> View</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+

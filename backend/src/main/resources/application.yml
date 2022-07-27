@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+spring:
+#  security:
+#    user:
+#      name: admin
+#      password: admin
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/telecom
+    username: root
+    password: chensql123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+jwt:
+  tokenHeader: Authorization
+  secret: yeb-secret
+  expiration: 604800
+  tokenHead: Bearer
